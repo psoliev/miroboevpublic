@@ -1,0 +1,21 @@
+:root { --navy: #082567; --gold: #caa641; --ink: #1f2430; --muted: #5d6475; --bg: #faf8f3; --line: #e4ddcc; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+header { background: var(--navy); color: #fff; padding: 20px 16px; border-bottom: 4px solid var(--gold); }
+header .wrap { display: flex; align-items: center; gap: 14px; }
+header img { width: 44px; height: 44px; border-radius: 10px; }
+header b { font-size: 18px; letter-spacing: .02em; }
+header small { display: block; color: #d9c98f; font-size: 13px; }
+.wrap { max-width: 760px; margin: 0 auto; }
+main { padding: 28px 16px 56px; }
+h1 { color: var(--navy); font-size: 28px; line-height: 1.25; margin: 0 0 6px; }
+h2 { color: var(--navy); font-size: 19px; margin: 28px 0 8px; }
+.meta { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+.lang { border-top: 2px solid var(--line); margin-top: 44px; padding-top: 8px; }
+a { color: var(--navy); }
+nav a { margin-right: 18px; }
+ul { padding-left: 22px; }
+code, .code { font-family: ui-monospace, Menlo, Consolas, monospace; }
+.code { display: block; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px; word-break: break-all; font-size: 15px; }
+button { margin-top: 10px; background: var(--navy); color: #fff; border: 0; border-radius: 8px; padding: 10px 16px; font-size: 15px; cursor: pointer; }
+footer { color: var(--muted); font-size: 13px; text-align: center; padding: 0 16px 32px; }
